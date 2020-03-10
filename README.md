@@ -26,4 +26,3 @@
 | aaaa | bbbbbb | ccccc |
 |2 a    | b      | c     |
 
-## 我好帥
