@@ -8,6 +8,7 @@
 - Student ID : 10528218 
 - Major in electrical engineering.
 - I'm 21 years old.
+- I'm senior.
 
 ***
 
