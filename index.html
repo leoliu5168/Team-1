@@ -41,10 +41,15 @@
           <a class="nav-link js-scroll-trigger" href="#home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#member">Member</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#introduction">Introduction</a>
+        </li>
+        <!--
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#minutes">minutes</a>
+        </li>
+      -->
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#member">Member</a>
         </li>
       </ul>
     </div>
@@ -59,6 +64,58 @@
     </section>
 
     <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex  justify-content-centers" id="introduction">
+      <div class="text">
+        <h2 class="mb-5">專題構想</h2>
+        <h4>機構問題與需求:</h4>
+          
+          <ul>
+            <li>小朋友人數過多，班級導師希望能有裝置提醒小朋友與老師</li>
+            <li>提醒方式用具導師聲音之錄音檔</li>
+            <li>自動連網將數據傳回並分析次數</li>
+            <li>裝置希望可運用於不同場合(如樓梯口)</li>
+          </ul>
+
+        <br>
+
+        <h4>目前討論出可行的計畫:</h4>
+        <ol>
+        <li>測量小朋友有無離開教室:</li>
+        <p>目前想法是通過在門邊加裝超音波測距，當距離數值低於平均時，發出警報；並且通過上下兩個不同高度的超音波感測器來區分大人與小孩。</p>
+        
+        <li>資料蒐集:</li>
+        <p>目前想法是每次當感測器觸發，通過機構的wifi來將數據上傳至預先寫好的網站並且進行統計。</p>
+        <li>移動性:</li>
+        <p>在教室可以觀測之外，由於有些小朋友在上下學時間喜歡跑到樓梯間遊玩而可能發生危險，因此老師希望在上下學時間也能夠將感測器帶到樓梯間進行安裝，因此需要兼顧方便攜帶安裝以及耐用不容易損壞。</p>
+        </ol>
+
+      <br>
+        <h4>目前組員討論暫時不可行方案:</h4>
+        <ol>
+        <li>識別器:</li>
+        <br>
+        <p>在最開始我們想讓小朋友身上攜帶識別器，通過感測識別器來判斷小朋友是否離開教室，除了簡單不用區分大人小孩外也能夠更加精確的確認小孩的位置</p>
+        
+        <p>否決理由:</p>
+        <p>由於小朋友比較好動可能導致識別器容易損壞，並且老師也強烈希望不要在小朋友身上戴上任何的感應器來保護小朋友，因此目前這個方案是失敗的。</p>
+        <li>紅外線測量</li>
+        <br>
+        <p>有組員想運用常見上下位置不同之紅外線感應器去偵測小孩進出</p>
+        <p>否決理由:</p>
+        <p>使用過紅外線偵測器之組員表示距離及精確度不適合此場域，且紅外線偵測器須安裝於兩側分別進行收發，不符合機構方便性之需求。</p>
+        </ol>
+        <br>
+        <h4>3/27 心得紀錄 </h4>
+      <ol>
+      <br>
+        <p>在第一次與鯨魚班的孩童及老師接觸之後，看到孩童們的狀況，真的是需要一些東西去協助他們，協助他們同時也是協助老師，減輕老師們的辛勞，便與老師共同討論出這個計畫方案：</p>
+        <p>發想點是從班上一位好動的同學去構想，需要運用我們在大學所學，設計出一個能協助老師管理孩童進出的感測裝置。我們會秉持著「取之於社會，回饋於社會」的精神去落實。</p>
+        <p>雖然目前不知道做出來是否極為理想又或者不太實用，但為了能讓這個班上或擴大至全校的孩童更好，我們會努力付出，做到最好。</p>
+      </ol>
+      <div>
+    </section>
+
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="member">
       <div class="w-100">
@@ -107,51 +164,13 @@
       </div>
     </section>
     <hr class="m-0">
-
-    
-    <section class="resume-section p-3 p-lg-5 d-flex  justify-content-centers" id="introduction">
-      <div class="text">
-        <h2 class="mb-5">專題構想</h2>
-        <h4>機構問題與需求:</h4>
-          
-          <ul>
-            <li>小朋友人數過多，班級導師希望能有裝置提醒小朋友與老師</li>
-            <li>提醒方式用具導師聲音之錄音檔</li>
-            <li>自動連網將數據傳回並分析次數</li>
-            <li>裝置希望可運用於不同場合(如樓梯口)</li>
-          </ul>
-
-        <br>
-
-        <h4>目前討論出可行的計畫:</h4>
-        <ol>
-        <li>測量小朋友有無離開教室:</li>
-        <p>目前想法是通過在門邊加裝超音波測距，當距離數值低於平均時，發出警報；並且通過上下兩個不同高度的超音波感測器來區分大人與小孩。</p>
-        
-        <li>資料蒐集:</li>
-        <p>目前想法是每次當感測器觸發，通過機構的wifi來將數據上傳至預先寫好的網站並且進行統計。</p>
-        <li>移動性:</li>
-        <p>在教室可以觀測之外，由於有些小朋友在上下學時間喜歡跑到樓梯間遊玩而可能發生危險，因此老師希望在上下學時間也能夠將感測器帶到樓梯間進行安裝，因此需要兼顧方便攜帶安裝以及耐用不容易損壞。</p>
-        </ol>
-
-      <br>
-        <h4>目前組員討論暫時不可行方案:</h4>
-        <ol>
-        <li>識別器:</li>
-        <br>
-        <p>在最開始我們想讓小朋友身上攜帶識別器，通過感測識別器來判斷小朋友是否離開教室，除了簡單不用區分大人小孩外也能夠更加精確的確認小孩的位置</p>
-        
-        <p>否決理由:</p>
-        <p>由於小朋友比較好動可能導致識別器容易損壞，並且老師也強烈希望不要在小朋友身上戴上任何的感應器來保護小朋友，因此目前這個方案是失敗的。</p>
-        <li>紅外線測量</li>
-        <br>
-        <p>有組員想運用常見上下位置不同之紅外線感應器去偵測小孩進出</p>
-        <p>否決理由:</p>
-        <p>使用過紅外線偵測器之組員表示距離及精確度不適合此場域，且紅外線偵測器須安裝於兩側分別進行收發，不符合機構方便性之需求。</p>
-        </ol>
-      <div>
+<!--
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="minutes">
+      <div class="w-100">
+        <h2 class="mb-5">Minutes</h2>
+      </div>
     </section>
-
+-->
   </div>
 
   <!-- Bootstrap core JavaScript -->
