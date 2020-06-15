@@ -1,126 +1,227 @@
 <!DOCTYPE html>
-<html lang="utf-8">
+<html lang="en">
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>APP 網頁應用</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<head>
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Colors CSS -->
+    <link rel="stylesheet" href="css/colors.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
 
-  <title>APP 網頁應用 第一組</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-  <!-- Custom styles for this template -->
-  <link href="css/clean-blog.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
+<body class="barber_version">
 
-<body>
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="cube-wrapper">
+		  <div class="cube-folding">
+			<span class="leaf1"></span>
+			<span class="leaf2"></span>
+			<span class="leaf3"></span>
+			<span class="leaf4"></span>
+		  </div>
+		  <span class="loading" data-name="Loading">APP 網頁應用 Loading</span>
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="index.html"style="font-family:微軟正黑體;">APP 網頁應用第一組</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="member.html">member</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="project.html">project</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <div id="wrapper">
 
-  <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/about-bg.jpg')">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="page-heading">
-            <h1>ABOUT US</h1>
-            <span class="subheading">This is what we are doing.</span>
-          </div>
+        <!-- Sidebar-wrapper -->
+        <div id="sidebar-wrapper">
+			<div class="side-top">
+				<div class="logo-sidebar">
+					<a href="index.html"><img src="images/logos/logo.png" alt="image"></a>
+				</div>
+				<ul class="sidebar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a class="active"href="about.html">About Us</a></li>
+                    <li><a href="members.html">Our Members</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="records.html">Records Of Our Project</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
         </div>
-      </div>
-    </div>
-  </header>
+        <!-- End Sidebar-wrapper -->
 
-  <!-- Main Content -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <p class="indent"style="font-family:微軟正黑體;">APP 網頁應用為一門服務學習的課程，是與心路基金會合作，為了改善基金會所遇到的問題，希望能幫助到更多早療兒童，並在服務學習過程中能對生命有所體會與學習。</p>
-        <p style="font-family:微軟正黑體;">我們是本次課程第一組，全部組員皆為大四學生，希望能在大學畢業前將所學應用幫助心路基金會，藉此也留下深刻的回憶。</p>
-    </div>
-    </div>
-  </div>
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <a href="#menu-toggle" class="menuopener" id="menu-toggle"><i class="fa fa-bars"></i></a>
+			
+            <div class="all-page-bar"style="background-image: url('uploads/3.jpg')">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12">
+							<div class="title title-1 text-center">
+								<div class="title--heading">
+                                    <h1>About Us</h1>
+                                    <br>
+                                    <br>
+								</div>
+								<br>
+							</div>
+							<!-- .title end -->
+						</div>
+					</div>
+				</div>
+			</div><!-- end all-page-bar -->
 
-  <hr>
+            <section class="section nopad cac text-center">
+                <a href="#"><h3>This is what we are.</h3></a>
+            </section>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <ul class="list-inline text-center">
+            <div class="section wb">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <div class="message-box">
+                                <p>我們是本次課程第一組，全部組員皆為大四學生，希望能在大學畢業前將所學應用幫助心路基金會，並藉由此網站來記錄我們製作的過程，以留下深刻的回憶。 </p>
+                                <p> APP 網頁應用為一門服務學習的課程，是與心路基金會合作，為了改善基金會所遇到的問題，希望能幫助到更多早療兒童，並在服務學習過程中能對生命有所體會與學習。</p>
 
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/leoliu5168/Team-1">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                  
-                </span>
-              </a>
-            </li>
-          </ul>
-          <p class="copyright text-muted"style="font-family:微軟正黑體;">Copyright &copy;中原大學APP網頁應用第一組</p>
+                            </div><!-- end messagebox -->
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+
+					
+                    <hr class="hr1"> 
+                    <div class="section-title row text-center">
+                        <div class="col-md-8 col-md-offset-2">
+                        <h3>學習內容</h3>
+                        <hr class="grd1">
+                        <p class="lead">Innovation distinguishes between a leader and a follower.<br>創新是決定能成為領導者或跟隨者的區別。</p>
+                        </div>
+                    </div><!-- end title -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="service-wrap lastchild clearfix">
+                                <img src="uploads/git.png" alt="" class="img-responsive img-rounded alignleft">
+                                <h4><a href="https://github.com/">Github</a></h4>
+                                <p>GitHub是透過Git進行版本控制的軟體原始碼代管服務平台，提供付費帳戶和免費帳戶。除了允許個人和組織建立和存取保管中的代碼以外，它也提供了一些方便社會化共同軟體開發的功能，即一般人口中的社群功能，包括允許用戶追蹤其他用戶、組織、軟體庫的動態，對軟體代碼的改動和bug提出評論等。GitHub也提供了圖表功能，用於概觀顯示開發者們怎樣在代碼庫上工作以及軟體的開發活躍程度。</p>
+                            </div><!-- end issue -->
+
+                            <div class="service-wrap clearfix">
+                                <img src="uploads/bootstrap.png" alt="" class="img-responsive img-rounded alignleft">
+                                <h4><a href="https://getbootstrap.com/">Bootstrap</a></h4>
+                                <p>Bootstrap是一組用於網站和網路應用程式開發的開源前端（所謂「前端」，指的是展現給終端使用者的介面。與之對應的「後端」是在伺服器上面執行的代碼）框架，包括HTML、CSS及JavaScript的框架，提供字體排印、表單、按鈕、導航及其他各種元件及Javascript擴充套件，旨在使動態網頁和Web應用的開發更加容易。</p>
+                            </div><!-- end issue -->
+
+                            <div class="service-wrap clearfix">
+                                <img src="uploads/appsheet.png" alt="" class="img-responsive img-rounded alignleft">
+                                <h4><a href="https://www.appsheet.com/">App Sheet</a></h4>
+                                <p>AppSheet provides a no-code development platform for application software, which allows users to create mobile, tablet, and web applications using data sources like Google Drive, DropBox, Office 365, and other cloud-based spreadsheet and database platforms. The platform can be utilized for a broad set of business use cases including project management, customer relationship management, field inspections, and personalized reporting.</p>
+                            </div><!-- end issue -->
+
+                            
+                        </div><!-- end col -->
+
+                        <div class="col-md-6">
+
+                            <div class="service-wrap lastchild clearfix">
+                                <img src="uploads/vsc.png" alt="" class="img-responsive img-rounded alignleft">
+                                <h4><a href="https://code.visualstudio.com/">Visual Studio Code (VSC)</a></h4>
+                                <p>Visual Studio Code（簡稱VS Code）是一個由微軟開發，同時支援Windows 、 Linux和macOS等操作系統且開放原始碼的程式碼編輯器，它支援測試，並內建了Git 版本控制功能，同時也具有開發環境功能，例如代碼補全（類似於 IntelliSense）、代碼片段和代碼重構等。該編輯器支援用戶個性化組態，例如改變主題顏色、鍵盤捷徑等各種屬性和參數，同時還在編輯器中內建了擴充程式管理的功能。</p>
+                            </div><!-- end issue -->
+
+                            <div class="service-wrap clearfix">
+                                <img src="uploads/konva.png" alt="" class="img-responsive img-rounded alignleft">
+                                <h4><a href="https://konvajs.org/docs/index.html">Konva</a></h4>
+                                <p>Konva is an HTML5 Canvas JavaScript framework that extends the 2d context by enabling canvas interactivity for desktop and mobile applications. Konva enables high performance animations, transitions, node nesting, layering, filtering, caching, event handling for desktop and mobile applications, and much more.</p>
+                            </div><!-- end issue -->
+
+                            <div class="service-wrap clearfix">
+                                <img src="uploads/google.png" alt="" class="img-responsive img-rounded alignleft">
+                                <h4><a href="https://www.google.com.tw/intl/zh-TW/forms/about/">Google 表單</a></h4>
+                                <p>可以自行建立新的問卷，可以同時和其他使用者一起製作，也預先製作了多種精美的主題任使用者挑選，或者使用者想要自行製作主題也可以。Google表單真的很方便，再加上也有不少熱心的網友分享了許多外掛，讓Google表單變得更強大，數量限制與自動發送確認信的擴充元件。本課程是透過 App Sheet 將 Google 表單製作成手機 App，以及將個人網頁當中瀏覽者所填寫的表單來連結到 Google 表單當中。</p>
+                            </div><!-- end issue -->
+                        </div><!-- end col -->
+                    </div>
+                    <div class="section-title row text-center">
+                        <hr class="grd1">
+                        <p>資料來源 各網站搜尋</p>
+                        </div>
+                    </div><!-- end title -->
+                </div><!-- end container -->
+            </div><!-- end section -->
+
+            <div class="copyrights">
+                <div class="container-fluid">
+                    <div class="footer-distributed">
+                        <div class="footer-left">
+                            <p class="footer-links">
+                                <a href="https://www.jywglady.org/webcamp/">王佳盈老師個人網頁</a>
+                                <a href="https://www.google.com.tw/">Google</a>
+                                <a href="https://www.facebook.com/">Facebook</a>
+                                <a href="https://www.youtube.com/">Youtbbe</a>
+                            </p>
+                            <p class="footer-company-name">Copyright &copy;2020 <a href="#">中原大學APP網頁應用第一組</a></p>
+                        </div>
+
+                        <div class="footer-right">
+                            <form method="get" action="#">
+                                <input placeholder="Subscribe our newsletter.." name="search">
+                                <i class="fa fa-envelope-o"></i>
+                            </form>
+                        </div>
+                    </div>
+                </div><!-- end container -->
+            </div><!-- end copyrights -->
         </div>
-      </div>
-    </div>
-  </footer>
+    </div><!-- end wrapper -->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/clean-blog.min.js"></script>
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+	<script src="js/responsive-tabs.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
 
-</body>
+    <!-- Menu Toggle Script -->
+    <script>
+    (function($) {
+        "use strict";
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        smoothScroll.init({
+            selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+            selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+            speed: 500, // Integer. How fast to complete the scroll in milliseconds
+            easing: 'easeInOutCubic', // Easing pattern to use
+            offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+            callback: function ( anchor, toggle ) {} // Function to run after scrolling
+        });
+    })(jQuery);
+    </script>
+
 
 </html>

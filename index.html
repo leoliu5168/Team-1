@@ -1,169 +1,297 @@
 <!DOCTYPE html>
-<html lang="utf-8">
+<html lang="en">
 
-<head>
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>APP 網頁應用</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-  <title>APP 網頁應用</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Colors CSS -->
+    <link rel="stylesheet" href="css/colors.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-  <!-- Custom styles for this template -->
-  <link href="css/clean-blog.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
+<body class="barber_version">
 
-<body>
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="cube-wrapper">
+		  <div class="cube-folding">
+			<span class="leaf1"></span>
+			<span class="leaf2"></span>
+			<span class="leaf3"></span>
+			<span class="leaf4"></span>
+		  </div>
+		  <span class="loading" data-name="Loading">APP 網頁應用 Loading</span>
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="index.html"style="font-family:微軟正黑體;">APP 網頁應用第一組</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="member.html">member</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="project.html">project</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <div id="wrapper">
 
-  <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/home-bg.jpg')">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="site-heading">
-            <h1 style="font-family:微軟正黑體;">APP 網頁應用</h1>
-            <span class="subheading"style="font-family:微軟正黑體;">中原大學電機系 第一組學習網頁</span>
-          </div>
+        <!-- Sidebar-wrapper -->
+        <div id="sidebar-wrapper">
+			<div class="side-top">
+				<div class="logo-sidebar">
+					<a href="index.html"><img src="images/logos/logo.png" alt="image"></a>
+				</div>
+				<ul class="sidebar-nav">
+					<li><a class="active" href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+                    <li><a href="barbers.html">Our Members</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="records.html">Records Of Our Project</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
         </div>
-      </div>
-    </div>
-  </header>
+        <!-- End Sidebar-wrapper -->
 
-  <!-- Main Content -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <div class="post-preview">
-          
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <a href="#menu-toggle" class="menuopener" id="menu-toggle"><i class="fa fa-bars"></i></a>
+			
+            <div id="home" class="parallax first-section" data-stellar-background-ratio="0.4" style="background-image:url('uploads/home-bg.jpg');">
+                <div class="container-fluid">
+                    <div class="row">
+						<div id="full-width" class="owl-carousel owl-theme">
+							<div class="text-center item">
+								<div class="col-md-8 col-md-offset-2 col-sm-12">
+									<div class="big-tagline text-center">
+										<h2><strong>APP網頁應用</strong><br>
+										第一組</h2>
+                                        <p class="lead">我們是本次課程第一組<br>指導老師 王佳盈</p>
+									</div>
+								</div>
+							</div>
+							<div class="text-center item">
+								<div class="col-md-8 col-md-offset-2 col-sm-12">
+									<div class="big-tagline text-center">
+										<h2>組長
+                                            <strong>劉峻宇</strong></h2>
+										<p class="lead">求知若飢，虛心若愚。<br>Stay Hungry, Stay Foolish.</p>
+										<a href="https://leoliu5168.github.io/Leo_personal_web/" class="btn btn-light btn-radius btn-brd grd1 effect-1 butn">個人網站 Go</a>
+									</div>
+								</div>
+							</div>
+							<div class="text-center item">
+								<div class="col-md-8 col-md-offset-2 col-sm-12">
+									<div class="big-tagline text-center">
+										<h2>組員
+                                            <strong>徐照揚</strong></h2>
+										<p class="lead">你一定要找到自己喜愛的事物。<br>You’ve got to find what you love.</p>
+										<a href="https://c035501538.github.io/AppClass/" class="btn btn-light btn-radius btn-brd grd1 effect-1 butn">個人網站 Go</a>
+									</div>
+								</div>
+							</div>
+                            <div class="text-center item">
+								<div class="col-md-8 col-md-offset-2 col-sm-12">
+									<div class="big-tagline text-center">
+										<h2>組員
+                                            <strong>黃柏翰</strong></h2>
+										<p class="lead">創意只不過是融會貫通後所得到的想法而已。<br>Creativity is just connecting things.</p>
+										<a href="https://asd1115056.github.io/app/" class="btn btn-light btn-radius btn-brd grd1 effect-1 butn">個人網站 Go</a>
+									</div>
+								</div>
+                            </div>
+                            <div class="text-center item">
+								<div class="col-md-8 col-md-offset-2 col-sm-12">
+									<div class="big-tagline text-center">
+										<h2>組員
+                                            <strong>蘇哲賢</strong></h2>
+										<p class="lead">Never, never, never, never give up.<br>決不、決不、決不、決不放棄！</p>
+										<a href="https://zhe-xian-su.github.io/test01/" class="btn btn-light btn-radius btn-brd grd1 effect-1 butn">個人網站 Go</a>
+									</div>
+								</div>
+							</div>
+						</div>
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div><!-- end section -->
 
-            <h2 class="post-title"style="font-family:微軟正黑體;">
-              我們是本次課程第一組
-            </h2>
+            <div class="section wb">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <div class="message-box">
+                                <h2>歡迎來到我們的網站</h2>
+                                <p class="lead">Design is not just what it looks like and feels like. Design is how it works.<br>設計不只是外表和感覺，設計是產品如何運作。</p>
 
-          
-          <p class="post-meta"style="font-family:微軟正黑體;">指導老師
-            <a href="https://www.jywglady.org/webcamp/"style="font-family:微軟正黑體;">王佳盈</a></p>      
-            <a href="index.html"><img src="img/logo.png"style="display:block; margin:auto;"alt=""></a>
-            <br>
+                                <p>我們是本次課程第一組，總共有四位組員，全部組員皆為大四學生。 </p>
+
+                                <a href="about.html" data-scroll class="btn btn-light btn-radius btn-brd grd1 effect-1">Learn More</a>
+                            </div><!-- end messagebox -->
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div><!-- end section -->
+    
+
+            <div id="services" class="section lb">
+                <div class="container-fluid">
+                    <div class="section-title row text-center">
+                        <div class="col-md-8 col-md-offset-2">
+                        <h3>最新消息</h3>
+                        <hr class="grd1">
+                        <p class="lead">I’m convinced about half of what separates the successful entrepreneurs from the nonsuccessful ones is pure perseverance.<br>我深信，成功與不成功的企業家之所以不同，有半數原因在於能否堅持下去。</p>
+                        </div>
+                    </div><!-- end title -->
+
+                    <div class="row text-center">
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                           <div class="service-widget">
+                                <div class="post-media wow fadeIn">
+                                    <a href="uploads/01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                                    <img src="uploads/01.jpg" alt="" class="img-responsive img-rounded">
+                                </div>
+                                <h3><strong>中原Can Help用專業幫助社會<br>為偏鄉弱勢發聲<br><br>2020/06/03</strong></h3>
+                                <p>由商設及企管系合作的「中原大學廣告行銷服務」課程，在今（3）日舉辦成果發表會，展現學生跨領域為公益團體設計網頁、心理測驗遊戲、實體活動、桌遊等行銷推廣服務，範圍從歷史文化傳承保留、在地水果品牌推廣、弱勢青少年助學、非洲教育資源，為疫情緊張的世界增添了溫暖與愛心！</p>
+                            </div><!-- end service -->
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="service-widget">
+                                <div class="post-media wow fadeIn">
+                                    <a href="uploads/04.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                                    <img src="uploads/04.jpg" alt="" class="img-responsive img-rounded">
+                                </div>
+                                <h3><strong>中原大學陪你創業圓夢<br>創新創業競賽帶你改變未來<br><br>2020/05/27</strong></h3>
+                                <p>由商設及企管系合作的「中原大學廣告行銷服務」課程，在今（3）日舉辦成果發表會，展現學生跨領域為公益團體設計網頁、心理測驗遊戲、實體活動、桌遊等行銷推廣服務，範圍從歷史文化傳承保留、在地水果品牌推廣、弱勢青少年助學、非洲教育資源，為疫情緊張的世界增添了溫暖與愛心！</p>
+                            </div><!-- end service -->
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="service-widget">
+                                <div class="post-media wow fadeIn">
+                                    <a href="uploads/02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                                    <img src="uploads/02.jpg" alt="" class="img-responsive img-rounded">
+                                </div>
+                                <h3><strong>歧視言論被模糊！<br>事件全紀錄<br><br>2020/05/04</strong></h3>
+                                <p>針對立法委員何志偉先生與招名威老師近來透過媒體所披露的片面資訊，不僅傷害長久以來認真辦學的中原大學，更造成社會對立與不安，中原大學深感遺憾。為還原事實真相，避免有心人士利用此事件混淆視聽、顛倒是非，中原大學特將本事件之始末公諸於世。</p>
+                            </div><!-- end service -->
+                        </div>
+                    </div><!-- end row -->
+                    <br>
+                    <div class="row text-center">
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                           <div class="service-widget">
+                                <div class="post-media wow fadeIn">
+                                    <a href="uploads/05.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                                    <img src="uploads/05.jpg" alt="" class="img-responsive img-rounded">
+                                </div>
+                                <h3><strong>中原男排勇奪<br>UVL大專排球聯賽亞軍<br><br>2020/04/21</strong></h3>
+                                <p>108學年度UVL大專排球聯賽4月19日在臺北體育館精彩落幕，眾所矚目的公開一級男排決賽由中原大學決戰國立臺灣師範大學，奮戰不懈下中原雖以1:3落敗，但中原選手一路過關斬將、勇於挑戰的精神大獲好評，證明中原大學教育理念所強調「充分發揮個人潛力就是成功」之精神！</p>
+                            </div><!-- end service -->
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="service-widget">
+                                <div class="post-media wow fadeIn">
+                                    <a href="uploads/03.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                                    <img src="uploads/03.jpg" alt="" class="img-responsive img-rounded">
+                                </div>
+                                <h3><strong>中原大學108學年度<br>註冊率引傲全國<br><br>2020/04/20</strong></h3>
+                                <p>中原大學自創校以來秉持基督愛世精神辦學，已充分把全人教育的核心價值轉化成核心競爭力，從許多「第一名」肯定即可證明，包括：連續六年榮獲世界大學排名中心排名(CWUR) 私立綜合大學第一名、連續七年獲私立大學校務發展獎補助經費首獎，打破全國大學紀錄，更有一項不可思議的表現是108學年度學士班新生註冊率99.97%。</p>
+                            </div><!-- end service -->
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="service-widget">
+                                <div class="post-media wow fadeIn">
+                                    <a href="uploads/06.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                                    <img src="uploads/06.jpg" alt="" class="img-responsive img-rounded">
+                                </div>
+                                <h3><strong>中原大學因應特殊傳染性肺炎<br>師生共同建立完善校園防疫網絡<br><br>2020/03/06</strong></h3>
+                                <p>中原大學為迎接108學年度第2學期開學，並因應嚴重特殊傳染性肺炎(COVID-19)防疫事宜，已依據教育部及中央流行疫情指揮中心規定，完成各項準備以及彈性措施，期能打造完善防疫網絡，有效維護師生健康，建構安全友善的學習環境。</p>
+                            </div><!-- end service -->
+                        </div>
+                    </div><!-- end row -->
+                    <br>
+                    <div class="section-title row text-center">
+                        <hr class="grd1">
+                        <p>資料來源 <a href="https://www1.cycu.edu.tw/">中原大學</a> > <a href="https://www1.cycu.edu.tw/news/">新聞報導</a></p>
+                        </div>
+                    </div><!-- end title -->
+                </div><!-- end container -->
+            </div><!-- end section -->
+            <br><br>
+            <div class="copyrights">
+                <div class="container-fluid">
+                    <div class="footer-distributed">
+                        <div class="footer-left">
+                            <p class="footer-links">
+                                <a href="https://www.jywglady.org/webcamp/">王佳盈老師個人網頁</a>
+                                <a href="https://www.google.com.tw/">Google</a>
+                                <a href="https://www.facebook.com/">Facebook</a>
+                                <a href="https://www.youtube.com/">Youtube</a>
+                            </p>
+                            <p class="footer-company-name">Copyright &copy;2020 <a href="#">中原大學APP網頁應用第一組</a></p>
+                        </div>
+
+                        <div class="footer-right">
+                            <form method="get" action="#">
+                                <input placeholder="Subscribe our newsletter.." name="search">
+                                <i class="fa fa-envelope-o"></i>
+                            </form>
+                        </div>
+                    </div>
+                </div><!-- end container -->
+            </div><!-- end copyrights -->
         </div>
-        <hr>
-        <!-- 
-        <div class="post-preview">
-          <a href="post.html">
-            <h2 class="post-title">
-              I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
-            </h2>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on September 18, 2019</p>
-        </div>
-        <hr>
-        <div class="post-preview">
-          <a href="post.html">
-            <h2 class="post-title">
-              Science has not yet mastered prophecy
-            </h2>
-            <h3 class="post-subtitle">
-              We predict too much for the next year and yet far too little for the next ten.
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on August 24, 2019</p>
-        </div>-->
-       
-        <hr>
-        <hr>
-        <!-- Pager -->
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="about.html">Let's go &rarr;</a>
-        </div>
-      </div>
-    </div>
-  </div>
+    </div><!-- end wrapper -->
 
-  <hr>
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <ul class="list-inline text-center">
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+	<script src="js/responsive-tabs.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
 
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/leoliu5168/Team-1">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                   
-                </span>
-              </a>
-            </li>
-          </ul>
-          <p class="copyright text-muted"style="font-family:微軟正黑體;">Copyright &copy;中原大學APP網頁應用第一組</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/clean-blog.min.js"></script>
+    <!-- Menu Toggle Script -->
+    <script>
+    (function($) {
+        "use strict";
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        smoothScroll.init({
+            selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+            selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+            speed: 500, // Integer. How fast to complete the scroll in milliseconds
+            easing: 'easeInOutCubic', // Easing pattern to use
+            offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+            callback: function ( anchor, toggle ) {} // Function to run after scrolling
+        });
+    })(jQuery);
+    </script>
 
 </body>
-
 </html>

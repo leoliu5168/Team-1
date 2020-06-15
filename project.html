@@ -1,192 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>APP 網頁應用</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-  <title>APP 網頁應用第一組</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Colors CSS -->
+    <link rel="stylesheet" href="css/colors.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-  <!-- Custom styles for this template -->
-  <link href="css/clean-blog.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
+<body class="barber_version">
 
-<body>
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="cube-wrapper">
+		  <div class="cube-folding">
+			<span class="leaf1"></span>
+			<span class="leaf2"></span>
+			<span class="leaf3"></span>
+			<span class="leaf4"></span>
+		  </div>
+		  <span class="loading" data-name="Loading">APP 網頁應用 Loading</span>
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="index.html"style="font-family:微軟正黑體;">APP 網頁應用第一組</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="member.html">member</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="project.html">project</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <div id="wrapper">
 
-  <!-- Page Header -->
-  <header class="masthead" style="background-image: url('https://pic.pimg.tw/chamisso0804/1348485214-1021481302_n.jpg')">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-heading">
-            <h1 style="font-family:微軟正黑體;">環境安全認知裝置</h1>
-            <!--<h2 class="subheading">幫助小孩環境認知與危機意識</h2>-->
-            <span class="meta"style="font-family:微軟正黑體;">本專案與
-              <a href="https://www.syinlu.org.tw/"style="font-family:微軟正黑體;">心路基金會</a>
-              合作</span>
-          </div>
+        <!-- Sidebar-wrapper -->
+        <div id="sidebar-wrapper">
+			<div class="side-top">
+				<div class="logo-sidebar">
+					<a href="index.html"><img src="images/logos/logo.png" alt="image"></a>
+				</div>
+				<ul class="sidebar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+                    <li><a href="members.html">Our Members</a></li>
+                    <li><a class="active" href="project.html">Project</a></li>
+                    <li><a href="records.html">Records Of Our Project</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
         </div>
-      </div>
-    </div>
-  </header>
+        <!-- End Sidebar-wrapper -->
 
-  <!-- Post Content -->
-  <article>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <h2 class="section-heading"style="font-family:微軟正黑體;">專案目的</h2>
-          <p style="font-family:微軟正黑體;">本專案之核心目的是為了增加孩子的環境感知能力，以此提高其注意力及危險感知能力，讓孩童在成長過程中經由一定規範的提醒，可以逐漸懂得聽話，更懂得規範的重要性；次要目的為可以提醒老師或志工有人進出教室，以此達到安全的監測。</p>
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <a href="#menu-toggle" class="menuopener" id="menu-toggle"><i class="fa fa-bars"></i></a>
+			
+            <div class="all-page-bar"style="background-image: url('uploads/4.jpg')">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12">
+							<div class="title title-1 text-center">
+								<div class="title--heading">
+                                    <h1>環境安全認知裝置</h1>
+                                    <span class="meta">本專案與
+                                        <a href="https://www.syinlu.org.tw/">心路基金會</a>
+                                        合作</span>
+								</div>
+								<br><br>
+							</div>
+							<!-- .title end -->
+						</div>
+					</div>
+				</div>
+			</div><!-- end all-page-bar -->
 
-          <h2 class="section-heading"style="font-family:微軟正黑體;">機構問題與需求</h2>
-          <br>
-          <p>
-            <li style="font-family:微軟正黑體;">小朋友人數過多，班級導師希望能有裝置提醒小朋友與老師</li>
-            <li style="font-family:微軟正黑體;">提醒方式用具導師聲音之錄音檔</li>
-            <li style="font-family:微軟正黑體;">自動連網將數據傳回並分析次數</li>
-            <li style="font-family:微軟正黑體;">裝置希望可運用於不同場合(如樓梯口)</li>
-          </p>
+            <section class="section nopad cac text-center">
+                <a href="#"><h3>This is the project we are going to do.</h3></a>
+            </section>
 
-          <h2 class="section-heading"style="font-family:微軟正黑體;">專題構想</h2>
-          <p>
-            <p style="font-family:微軟正黑體;">如下圖(圖一)所示，透過在門邊加裝超音波測距，當距離數值低於平均時，發出警報；並且通過上下兩個不同高度的超音波感測器來區分大人與小孩。</p>
-          <a href="#">
-            <img class="img-fluid"src="img/img/sample2.jpg" style="display:block; margin:auto;"  alt="構想"> 
-          </a>
-          <p style="font-family:微軟正黑體;" align="center">圖一 專題構想圖</p>
-
-          </p>
-
-          <h2 class="section-heading"style="font-family:微軟正黑體;">專題架構</h2>
-          <p style="font-family:微軟正黑體;">整體架構如下圖(圖二)所示，我們將利用「Arduino」或「ESP8266」來做控制，控制上下超音波及聲音播放器。</p>
-          <p> 
-          <a href="#">
-            <img class="img-fluid"src="img/img/sample1.jpg" style="display:block; margin:auto;" alt="架構圖"> 
-          </a>
-          <p style="font-family:微軟正黑體;" align="center">圖二 專題架構圖</p>
-
-          </p>
-
-          <h2 class="section-heading"style="font-family:微軟正黑體;">專題電路</h2>
-          <p style="font-family:微軟正黑體;">整體電路如下圖(圖三)所示。</p>
-          <p> 
-          <a href="#">
-            <img class="img-fluid"src="img/img/sample3.jpg" width="700" height="550"style="display:block; margin:auto;" alt="電路圖">
-          </a>
-          <p style="font-family:微軟正黑體;" align="center">圖三 專題電路圖</p>
-
-          <h2 class="section-heading"style="font-family:微軟正黑體;">目前成果</h2><br>
+            <div class="section wb">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <div class="message-box">
 
 
-          <div class="container">
-            <div class="row">
-              <div class="col-sm">
-                <a class="active" href="project.html"style="font-family:微軟正黑體;">首頁</a>
-              </div>
-              <div class="col-sm">
-                <a href="record1.html"style="font-family:微軟正黑體;">記錄1</a>
-              </div>
-              <div class="col-sm">
-                <a href="record2.html"style="font-family:微軟正黑體;">記錄2</a>
-              </div>
-              <div class="col-sm">
-                <a href="record3.html"style="font-family:微軟正黑體;">記錄3</a>
-              </div>
-              <div class="col-sm">
-                <a href="record4.html"style="font-family:微軟正黑體;">記錄4</a>
-              </div>
-            </div>
-          </div>
-         <br>
-       </div>
-      </div>
-    </div>
-  </article>
+                                <p> APP 網頁應用為一門服務學習的課程，是與心路基金會合作，為了改善基金會所遇到的問題，希望能幫助到更多早療兒童，並在服務學習過程中能對生命有所體會與學習。 </p>
 
-  <hr>
+                                <a href="records.html#tab" data-scroll class="btn btn-light btn-radius btn-brd grd1 effect-1">Learn More</a>
+                            </div><!-- end messagebox -->
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+					
+					<hr class="hr1"> 
+					
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text">
+							<div class="about-tab">
+								
+								<div class="tab-content">
+									
+										<h2 class="section-heading">專案目的</h2>
+                                        <p>本專案之核心目的是為了增加孩子的環境感知能力，以此提高其注意力及危險感知能力，讓孩童在成長過程中經由一定規範的提醒，可以逐漸懂得聽話，更懂得規範的重要性；次要目的為可以提醒老師或志工有人進出教室，以此達到安全的監測。</p>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <ul class="list-inline text-center">
+                                        <h2 class="section-heading">機構問題與需求</h2>
+                                        <p>
+                                            <li>1.有些小朋友粗大動作發展較認知及語言發展快速，他們需要四處行走探索但又尚未發展出自我保護能力。</li>
+                                            <li>2.這一類小朋友已經發展出理解大人的語氣，當他們自行走出教室時聽大人的語氣及指令下就調頭，知道不可以離開教室。</li>
+                                            <li>3.可以用聲音提醒的方式，錄下導師聲音之錄音檔。</li>
+                                            <li>4.自動連網將數據傳回並分析次數，獲知小朋友聽到聲音理解返回教室的進步狀況。</li>
+                                            <li>5.裝置希望可運用於不同場合(如教室門口及樓梯口)</li>
+                                        </p>
 
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/leoliu5168/Team-1">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                   
-                </span>
-              </a>
-            </li>
-          </ul>
-          <p class="copyright text-muted"style="font-family:微軟正黑體;">Copyright &copy;中原大學APP網頁應用第一組</p>
+                                        <h2 class="section-heading">專題構想</h2>
+                                        <p>
+                                            <p>如下圖(圖一)所示，透過在門邊加裝超音波測距，當距離數值低於平均時，發出警報；並且通過上下兩個不同高度的超音波感測器來區分大人與小孩。</p>
+                                       <div class="nav nav-tabs" > 
+                                            <a href="#">
+                                                <img src="images/sample2.jpg"alt="構想"> 
+                                            </a>
+                                        </div>
+                                        <p align="center">圖一 專題構想圖</p>
+
+                                       
+
+                                        <h2 class="section-heading">專題架構</h2>
+                                        <p>整體架構如下圖(圖二)所示，我們將利用「Arduino」或「ESP8266」來做控制，控制上下超音波及聲音播放器。</p>
+                                        <p> 
+                                        <a href="#">
+                                            <img class="img-fluid"src="images/sample1.jpg" style="display:block; margin:auto;" alt="架構圖"> 
+                                        </a>
+                                        <p align="center">圖二 專題架構圖</p>
+
+                                        </p>
+
+                                        <h2 class="section-heading">專題電路</h2>
+                                        <p>整體電路如下圖(圖三)所示。</p>
+                                        <p> 
+                                        <a href="#">
+                                            <img class="img-fluid"src="images/sample3.jpg" width="700" height="550"style="display:block; margin:auto;" alt="電路圖">
+                                        </a>
+                                        <p align="center">圖三 專題電路圖</p>
+									
+								</div><!-- tab content -->
+							</div>
+						</div><!-- end col -->
+					</div><!-- end row -->
+                </div><!-- end container -->
+            </div><!-- end section -->
+
+           
+
+            <div class="copyrights">
+                <div class="container-fluid">
+                    <div class="footer-distributed">
+                        <div class="footer-left">
+                            <p class="footer-links">
+                                <a href="https://www.jywglady.org/webcamp/">王佳盈老師個人網頁</a>
+                                <a href="https://www.google.com.tw/">Google</a>
+                                <a href="https://www.facebook.com/">Facebook</a>
+                                <a href="https://www.youtube.com/">Youtbbe</a>
+                            </p>
+                            <p class="footer-company-name">Copyright &copy;2020 <a href="#">中原大學APP網頁應用第一組</a></p>
+                        </div>
+
+                        <div class="footer-right">
+                            <form method="get" action="#">
+                                <input placeholder="Subscribe our newsletter.." name="search">
+                                <i class="fa fa-envelope-o"></i>
+                            </form>
+                        </div>
+                    </div>
+                </div><!-- end container -->
+            </div><!-- end copyrights -->
         </div>
-      </div>
-    </div>
-  </footer>
+    </div><!-- end wrapper -->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/clean-blog.min.js"></script>
-  <link href="css/clean-blog.min.css" rel="stylesheet">
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+	<script src="js/responsive-tabs.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    (function($) {
+        "use strict";
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        smoothScroll.init({
+            selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+            selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+            speed: 500, // Integer. How fast to complete the scroll in milliseconds
+            easing: 'easeInOutCubic', // Easing pattern to use
+            offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+            callback: function ( anchor, toggle ) {} // Function to run after scrolling
+        });
+    })(jQuery);
+    </script>
 
 </body>
-
 </html>
